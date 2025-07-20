@@ -5,7 +5,7 @@ on:
     inputs:
       image_url:
         description: 'Recovery Image URL'
-        default: 'https://pixeldrain.com/u/n7gbAzfE'
+        default: 'https://limewire.com/?referrer=pq7i8xx7p2'
         required: true
         type: string
 
@@ -23,7 +23,7 @@ jobs:
          
     - name: Download recovery image from URL
       run: |
-         wget --user-agent="Mozilla/5.0" 'https://pixeldrain.com/u/n7gbAzfE'
+         wget --user-agent="Mozilla/5.0" 'https://limewire.com/?referrer=pq7i8xx7p2'
 
     - name: Start patching script
       run: |
