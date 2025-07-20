@@ -23,7 +23,7 @@ jobs:
          
     - name: Download recovery image from URL
       run: |
-         wget ${{github.event.inputs.image_url}}
+         wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) " https://pixeldrain.com/u/RupynoZV
 
     - name: Start patching script
       run: |
