@@ -5,7 +5,7 @@ on:
     inputs:
       image_url:
         description: 'Recovery Image URL'
-        default: 'https://pixeldrain.com/u/RupynoZV'
+        default: 'https://pixeldrain.com/u/vP1gDwuu'
         required: true
         type: string
 
